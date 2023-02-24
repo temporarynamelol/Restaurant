@@ -1,5 +1,5 @@
-import pageLoad from "./pageLoad";
-import homePage from "./home";
+import {pageLoad} from "./pageLoad";
+import {homePage} from "./home";
 
 pageLoad();
 

@@ -17,4 +17,4 @@ function homePage () {
 
 }
 
-export default homePage;
+export {homePage};
