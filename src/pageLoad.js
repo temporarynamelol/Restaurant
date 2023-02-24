@@ -2,6 +2,9 @@ function pageLoad () {
 
     const content = document.getElementById("content");
 
+    const navBar = document.createElement("div");
+    navBar.id = "nav";
+
     const home = document.createElement("button");
     const menu = document.createElement("button");
     const contact = document.createElement("button");
@@ -18,9 +21,11 @@ function pageLoad () {
     menu.id = "menu";
     contact.id = "contact";
 
-    content.appendChild(home);
-    content.appendChild(menu);
-    content.appendChild(contact);
+    navBar.appendChild(home);
+    navBar.appendChild(menu);
+    navBar.appendChild(contact);
+
+    content.appendChild(navBar);
 
 }
 
