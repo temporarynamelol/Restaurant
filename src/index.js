@@ -1,5 +1,6 @@
 import {pageLoad} from "./pageLoad";
 import {homePage} from "./home";
+import {clean} from "./clean";
 
 pageLoad();
 
@@ -11,7 +12,8 @@ buttons.forEach((button) => {
     if(button.id == "home") {
         homePage();
     } else {
-        alert("works");
+        clean();
+        
     }
   }) 
 })
